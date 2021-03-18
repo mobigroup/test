@@ -3,7 +3,6 @@
 <style>
 model-viewer {
   display: block;
-  position: relative;
   width: 500px;
   height: 300px;
   --poster-color: transparent;
