@@ -20,7 +20,7 @@ src.appendChild(this.img);
 **Recent iOS/iPadOS/Android devices assure the best [Augmented Reality](https://www.apple.com/augmented-reality/) experience.**
 
 ## Augmented Reality (AR) Geological Model of Lahendong Geothermal Reservoir on Minahasa Compartment, North Sulawesi, Indonesia
-<model-viewer
+<div><model-viewer
     id="modelviewer1"
     loading="eager"
     src="Minahasa08.glb?time=1"
@@ -30,12 +30,12 @@ src.appendChild(this.img);
     ar-modes="webxr scene-viewer quick-look fallback"
     camera-controls
     alt="3D model"
-/>
+/></div>
 
 ## Augmented Reality (AR) Geological Model of Rinjani and Tambora volcanoes area, Indonesia (test 2)
 
 <!-- page content -->
-<model-viewer
+<div><model-viewer
     id="modelviewer2"
     loading="eager"
     src="Minahasa08.glb?time=1"
@@ -45,4 +45,4 @@ src.appendChild(this.img);
     ar-modes="webxr scene-viewer quick-look fallback"
     camera-controls
     alt="3D model"
-/>
+/></div>
