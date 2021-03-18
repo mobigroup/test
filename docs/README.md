@@ -17,7 +17,6 @@ src = document.querySelector("p.view");
 src.appendChild(this.img);
 </script>
 
-<span>
 <svg version="1.1" id="view_x5F_in_x5F_AR_x5F_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
 <rect id="Bounding_Box" x="0" y="0" fill="none" width="24" height="24"></rect>
 <g id="Art_layer">
@@ -32,7 +31,6 @@ src.appendChild(this.img);
 	</g>
 </g>
 </svg>
-</span>
 
 **Recent iOS/iPadOS/Android devices assure the best [Augmented Reality](https://www.apple.com/augmented-reality/) experience.**
 
