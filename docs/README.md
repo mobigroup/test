@@ -15,9 +15,8 @@ this.img = document.createElement("img");
 this.img.src = "https://avatars.githubusercontent.com/u/7342379?s=460&u=37e514700d78db61a39b9b298b7e70b63b1f390a&v=4";
 src = document.querySelector("p.view");
 src.appendChild(this.img);
-
-</script>
-
+this.div = document.createElement("div");
+this.div.innerHTML('
 <svg style="float: left; margin: 10px;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
 <rect id="Bounding_Box" x="0" y="0" fill="none" width="24" height="24"></rect>
 <g id="Art_layer">
@@ -32,8 +31,10 @@ src.appendChild(this.img);
 	</g>
 </g>
 </svg>
-
-**Recent iOS/iPadOS/Android devices assure the best [Augmented Reality](https://www.apple.com/augmented-reality/) experience.**
+Recent iOS/iPadOS/Android devices assure the best [Augmented Reality](https://www.apple.com/augmented-reality/) experience.
+')
+src.appendChild(this.div);
+</script>
 
 ## Augmented Reality (AR) Geological Model of Lahendong Geothermal Reservoir on Minahasa Compartment, North Sulawesi, Indonesia
 <div><model-viewer
