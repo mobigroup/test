@@ -16,8 +16,8 @@ this.img.src = "https://avatars.githubusercontent.com/u/7342379?s=460&u=37e51470
 src = document.querySelector("p.view");
 src.appendChild(this.img);
 this.div = document.createElement("div");
-this.div.innerHTML('
-<svg style="float: left; margin: 10px;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+this.div.innerHTML = `
+<svg style="float: left; margin: 4px;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
 <rect id="Bounding_Box" x="0" y="0" fill="none" width="24" height="24"></rect>
 <g id="Art_layer">
 	<path d="M3,4c0-0.55,0.45-1,1-1h2V1H4C2.35,1,1,2.35,1,4v2h2V4z"></path>
@@ -31,8 +31,7 @@ this.div.innerHTML('
 	</g>
 </g>
 </svg>
-Recent iOS/iPadOS/Android devices assure the best [Augmented Reality](https://www.apple.com/augmented-reality/) experience.
-')
+Recent iOS/iPadOS/Android devices assure the best <a href="https://www.apple.com/augmented-reality/">AR experience</a>`;
 src.appendChild(this.div);
 </script>
 
